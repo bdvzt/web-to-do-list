@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <script src="main.js" defer></script>
+    <title>TO-DO LIST</title>
+</head>
+
+
+<body>
+    <section class="toDo">
+        <h2>TO-DO LIST</h2>
+
+        <div class="input">
+            <input type="text" class ="inputField" id="todoInput" placeholder="Add a new task"/>
+            <button class="btn">ADD</button>
+        </div>
+
+        <ul class="scroll">
+            <li id="todoList"></li>
+        </ul>
+
+        <div>
+            <div class="bottom-buttons">
+                <button id="btnDeleteAll">Delete all</button>
+                <button id="btnSave">Save</button>
+                
+                <input type="file" id="btnLoad" hidden>
+                <label for="btnLoad">Upload</label>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
